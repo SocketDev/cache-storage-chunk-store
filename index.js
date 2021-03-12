@@ -50,8 +50,8 @@ class Storage {
     this.cachePromise.then((cache) => {
       cache
         .put('/index/' + index, response)
-        .then(() => cb(null))
-    })
+        .then(() => cb(null), cb)
+    }, cb)
   }
 
   get (index, opts, cb = noop) {
@@ -82,8 +82,8 @@ class Storage {
           }
           return cb(null, buf.slice(offset, len + offset))
         }, cb)
-      })
-    })
+      }, cb)
+    }, cb)
   }
 
   close (cb = noop) {
