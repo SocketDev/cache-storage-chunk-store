@@ -1,10 +1,13 @@
 const Buffer = require('buffer').Buffer
 
+// globalThis is the new standard global, but also support window and self (for worker contexts)
+const global = typeof globalThis !== 'undefined' ? globalThis : (typeof window !== 'undefined' ? window : self)
+
 function noop () {}
 
 class Storage {
   constructor (chunkLength, opts = {}) {
-    if (!window || !window.caches) throw new Error('Not supported on this platform')
+    if (!global || !global.caches) throw new Error('Not supported on this platform')
 
     if (!(this instanceof Storage)) return new Storage(chunkLength, opts)
 
@@ -20,7 +23,7 @@ class Storage {
       this.lastChunkIndex = Math.ceil(this.length / this.chunkLength) - 1
     }
 
-    this.cachePromise = window.caches.open(this.name)
+    this.cachePromise = global.caches.open(this.name)
   }
 
   put (index, buf, cb = noop) {
@@ -37,9 +40,9 @@ class Storage {
 
     // Even though new Response() can take buf directly, creating a Blob first
     // is significantly faster in Chrome and Firefox
-    const blob = new window.Blob([buf])
+    const blob = new global.Blob([buf])
 
-    const response = new window.Response(blob, {
+    const response = new global.Response(blob, {
       status: 200,
       headers: {
         'Content-Type': 'application/octet-stream',
@@ -100,7 +103,7 @@ class Storage {
     this.closed = true
     this.cachePromise = null
 
-    window.caches.delete(this.name).then(() => {
+    global.caches.delete(this.name).then(() => {
       cb(null)
     }, cb)
   }
