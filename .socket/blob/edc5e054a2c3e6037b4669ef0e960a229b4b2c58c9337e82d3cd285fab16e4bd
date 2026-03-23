@@ -1,0 +1,86 @@
+// Socket Community Patch: https://socket.dev
+// Date: Tue, 03 Feb 2026 21:20:33 GMT
+// For more information see https://socket.dev/patch/19539c57-1ffa-48f6-80b8-f562812fae64
+// This file includes modifications made by Socket, Inc. on Tue, 03 Feb 2026; these modifications are called the "Patch". In some cases, Socket may be required to make the Patch available to you under specific terms, or may be prohibited from restricting certain rights you may have. For example, the terms of another applicable license may require Socket to make the Patch available under specific terms. In those cases, the Patch is made available to you under the required terms, and Socket does not seek to restrict your rights relative to the Patch where prohibited. In all other cases, the Patch is available to you exclusively under the PolyForm Shield License 1.0.0 (https://polyformproject.org/licenses/shield/1.0.0/). The Patch was distributed by Socket with additional information concerning licensing, attribution, and limitation of liability which may be relevant to you and your use of the Patch. As far as the law allows, the Patch and the software including the patch come as is, without any warranty or condition, and Socket will not be liable to you for any damages arising out of the applicable license terms or the use or nature of the Patch or the software including the patch, under any kind of legal claim.
+// Original License: MIT
+
+module.exports = function (Buffer) {
+
+  //prototype class for hash functions
+  function Hash (blockSize, finalSize) {
+    this._block = new Buffer(blockSize) //new Uint32Array(blockSize/4)
+    this._finalSize = finalSize
+    this._blockSize = blockSize
+    this._len = 0
+    this._s = 0
+  }
+
+  Hash.prototype.init = function () {
+    this._s = 0
+    this._len = 0
+  }
+
+  Hash.prototype.update = function (data, enc) {
+    if (typeof data !== 'string' && !Buffer.isBuffer(data)) {
+      throw new TypeError('Data must be a string or Buffer')
+    }
+    if ("string" === typeof data) {
+      enc = enc || "utf8"
+      data = new Buffer(data, enc)
+    }
+
+    var l = this._len += data.length
+    var s = this._s = (this._s || 0)
+    var f = 0
+    var buffer = this._block
+
+    while (s < l) {
+      var t = Math.min(data.length, f + this._blockSize - (s % this._blockSize))
+      var ch = (t - f)
+
+      for (var i = 0; i < ch; i++) {
+        buffer[(s % this._blockSize) + i] = data[i + f]
+      }
+
+      s += ch
+      f += ch
+
+      if ((s % this._blockSize) === 0) {
+        this._update(buffer)
+      }
+    }
+    this._s = s
+
+    return this
+  }
+
+  Hash.prototype.digest = function (enc) {
+    // Suppose the length of the message M, in bits, is l
+    var l = this._len * 8
+
+    // Append the bit 1 to the end of the message
+    this._block[this._len % this._blockSize] = 0x80
+
+    // and then k zero bits, where k is the smallest non-negative solution to the equation (l + 1 + k) === finalSize mod blockSize
+    this._block.fill(0, this._len % this._blockSize + 1)
+
+    if (l % (this._blockSize * 8) >= this._finalSize * 8) {
+      this._update(this._block)
+      this._block.fill(0)
+    }
+
+    // to this append the block which is equal to the number l written in binary
+    // TODO: handle case where l is > Math.pow(2, 29)
+    this._block.writeInt32BE(l, this._blockSize - 4)
+
+    var hash = this._update(this._block) || this._hash()
+
+    return enc ? hash.toString(enc) : hash
+  }
+
+  Hash.prototype._update = function () {
+    throw new Error('_update must be implemented by subclass')
+  }
+
+  return Hash
+}
