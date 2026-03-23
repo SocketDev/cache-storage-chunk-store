@@ -26,7 +26,8 @@
     "web": "npx wzrd test.js",
     "bundle": "webpack --mode=production --entry=./index.js --devtool=source-map --output-library=CacheStorageChunkStore --output-filename=cache-storage-chunk-store.min.js",
     "prepare": "npm run bundle",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "postinstall": "npx @socketsecurity/socket-patch apply --silent --ecosystems npm"
   },
   "dependencies": {
     "buffer": "^6.0.2"
